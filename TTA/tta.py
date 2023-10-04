@@ -150,7 +150,9 @@ def remove_left_iod_threshold(original_json, other_res_json, threshold = 1.0):
 
 
 def receive_cascade_output(c_root):
-    predict_path = '_predict'
+
+    # Here is the tta five kind of input direction.
+    # predict_path = '_predict'
     # predict_path = '_predict_softmax'
     # predict_path = '_white_3t_p20_predict'
     # predict_path  = '_predict_category_softmax'
@@ -198,6 +200,7 @@ def receive_cascade_output(c_root):
                 os.mkdir(output_dir)
             print("item_name:::::::", item_name)
             print("output_dir:", output_dir)
+            # output_dir, Here is the tta output direction.
             write_json(os.path.join(output_dir, item_name), [])
         else:
             dets = np.array(collect_json)
@@ -209,6 +212,7 @@ def receive_cascade_output(c_root):
                 os.mkdir(output_dir)
             print("item_name:::::::", item_name)
             print("output_dir:", output_dir)
+            # output_dir, Here is the tta output direction.
             write_json(os.path.join(output_dir, item_name), combine_res)
 
     return all_collect_json
@@ -246,7 +250,7 @@ def find_overlap_area(ovr_cell, collect_json):
 
 
 if __name__ == '__main__':
-    c_root = '/data/cs_lzhan011/project/mmdetection/data/Cell_split_train_test/Cell_images'
+    c_root = '/data/cs_lzhan011/uq/mmdetection/data/Cell_split_train_test/Cell_images'
     # c_root = '/home/lei/fsdownload/tta_20221130'
     all_collect_json = receive_cascade_output(c_root)
 

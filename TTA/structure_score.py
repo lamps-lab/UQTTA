@@ -354,8 +354,8 @@ def computer_structure_score(cell_res_dir, c_root):
         structure_score(write_path)
 
 if __name__ == '__main__':
-    c_root = '/data/cs_lzhan011/project/mmdetection/data/Cell_split_train_test/Cell_images/'
+    c_root = '/data/cs_lzhan011/uq/mmdetection/data/Cell_split_train_test/Cell_images/'
     # cell_res = os.path.join(c_root, 'output_image_only_cell_test_predict')
-    cell_res = '/data/cs_lzhan011/project/mmdetection/data/Cell_split_train_test/coco_split_table_input'
+    cell_res = '/data/cs_lzhan011/uq/mmdetection/data/Cell_split_train_test/coco_split_table_input'
     # c_root = '/home/lei/fsdownload/tta_20221130'
     computer_structure_score(cell_res, c_root)
