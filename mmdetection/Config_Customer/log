@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/cs_lzhan011/.pycharm_helpers/pydev/pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/cs_lzhan011/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/data/cs_lzhan011/project/mmdetection/tools/train.py", line 244, in <module>
+    main()
+  File "/data/cs_lzhan011/project/mmdetection/tools/train.py", line 240, in main
+    meta=meta)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/apis/train.py", line 244, in train_detector
+    runner.run(data_loaders, cfg.workflow)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/mmcv/runner/epoch_based_runner.py", line 136, in run
+    epoch_runner(data_loaders[i], **kwargs)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/mmcv/runner/epoch_based_runner.py", line 53, in train
+    self.run_iter(data_batch, train_mode=True, **kwargs)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/mmcv/runner/epoch_based_runner.py", line 32, in run_iter
+    **kwargs)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/mmcv/parallel/data_parallel.py", line 77, in train_step
+    return self.module.train_step(*inputs[0], **kwargs[0])
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/detectors/base.py", line 248, in train_step
+    losses = self(**data)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/mmcv/runner/fp16_utils.py", line 116, in new_func
+    return old_func(*args, **kwargs)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/detectors/base.py", line 172, in forward
+    return self.forward_train(img, img_metas, **kwargs)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/detectors/two_stage.py", line 127, in forward_train
+    x = self.extract_feat(img)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/detectors/two_stage.py", line 67, in extract_feat
+    x = self.backbone(img)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/backbones/hrnet.py", line 569, in forward
+    y_list = self.stage3(x_list)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/cs_lzhan011/.conda/envs/openmmlab/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/data/cs_lzhan011/project/mmdetection/mmdet/models/backbones/hrnet.py", line 198, in forward
+    y += self.fuse_layers[i][j](x[j])
+RuntimeError: The size of tensor a (334) must match the size of tensor b (336) at non-singleton dimension 3
