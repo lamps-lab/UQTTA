@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Deva</folder>
+	<filename>cTDaR_t10526.jpg</filename>
+	<path>/media/devashish/Local Disk/Research/Projects/Table Project/Chunk/reinforcement/Deva/cTDaR_t10526.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>794</width>
+		<height>1123</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>178</ymin>
+			<xmax>729</xmax>
+			<ymax>385</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Ayan</folder>
+	<filename>cTDaR_t10408.jpg</filename>
+	<path>D:\Egien Elites\TableNet\Dataset\Chunk\Ayan\cTDaR_t10408.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>794</width>
+		<height>1123</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>94</ymin>
+			<xmax>706</xmax>
+			<ymax>221</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>309</ymin>
+			<xmax>706</xmax>
+			<ymax>980</ymax>
+		</bndbox>
+	</object>
+</annotation>

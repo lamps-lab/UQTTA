@@ -1,0 +1,38 @@
+<annotation>
+	<folder>250</folder>
+	<filename>cTDaR_t10051.jpg</filename>
+	<path>/home/neo/Desktop/Table Structure Extraction/SET/250/cTDaR_t10051.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>794</width>
+		<height>1123</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>96</ymin>
+			<xmax>683</xmax>
+			<ymax>451</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>522</ymin>
+			<xmax>683</xmax>
+			<ymax>991</ymax>
+		</bndbox>
+	</object>
+</annotation>

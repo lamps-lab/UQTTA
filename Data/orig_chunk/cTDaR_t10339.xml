@@ -1,0 +1,26 @@
+<annotation>
+	<folder>gt_train</folder>
+	<filename>cTDaR_t10339.jpg</filename>
+	<path>G:\gt_train\cTDaR_t10339.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>816</width>
+		<height>1056</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>102</xmin>
+			<ymin>262</ymin>
+			<xmax>643</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Chunk]</folder>
+	<filename>cTDaR_t10246.jpg</filename>
+	<path>D:\Egien Elites\TableNet\Dataset\ICDAR2019_cTDaR\Chunk]\cTDaR_t10246.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>794</width>
+		<height>1123</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>237</ymin>
+			<xmax>574</xmax>
+			<ymax>404</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>431</ymin>
+			<xmax>472</xmax>
+			<ymax>598</ymax>
+		</bndbox>
+	</object>
+</annotation>

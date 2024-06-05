@@ -1,0 +1,26 @@
+<annotation>
+	<folder>gt_train</folder>
+	<filename>cTDaR_t10300.jpg</filename>
+	<path>E:\KSK ML\KSK PAPERS\TabXNet\scripts for table\ICDAR 2019\gt_train\cTDaR_t10300.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1033</width>
+		<height>1459</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bordered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>123</xmin>
+			<ymin>913</ymin>
+			<xmax>904</xmax>
+			<ymax>1127</ymax>
+		</bndbox>
+	</object>
+</annotation>
