@@ -132,10 +132,7 @@ The reported evaluation also shows that:
 
 ## Dataset
 
-The experiments reported in the paper use **543 real-world table images** selected from the ICDAR 2019 table-recognition benchmark:
-
-- **443 images** for training; and
-- **100 images** for testing.
+The experiments reported in the paper use **real-world table images** selected from the ICDAR 2019 table-recognition benchmark:
 
 Only the table-structure-recognition annotations are used. The project code expects COCO-style cell annotations and directories containing original and augmented table images. Researchers reproducing the experiments should obtain the underlying benchmark under its applicable terms and update the local data paths described below.
 
